@@ -1,0 +1,7 @@
+18:03:15,702 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer for API "JDO"
+18:03:21,003 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.1.1) : Enhancement of classes
+18:03:56,217 (main) INFO  [DataNucleus.Enhancer] - Writing class file "/home/jalal/workspace/AndroidStudio/TellMeWhenProject/TellMeWhen-AppEngine/target/TellMeWhen-AppEngine-1.0/WEB-INF/classes/com/tellmewhen/stocks/MessageData.class" with enhanced definition
+18:03:56,223 (main) INFO  [DataNucleus.Enhancer] - Writing class file "/home/jalal/workspace/AndroidStudio/TellMeWhenProject/TellMeWhen-AppEngine/target/TellMeWhen-AppEngine-1.0/WEB-INF/classes/com/tellmewhen/stocks/StockPriceAlert.class" with enhanced definition
+18:03:56,230 (main) INFO  [DataNucleus.Enhancer] - Writing class file "/home/jalal/workspace/AndroidStudio/TellMeWhenProject/TellMeWhen-AppEngine/target/TellMeWhen-AppEngine-1.0/WEB-INF/classes/com/tellmewhen/stocks/DeviceInfo.class" with enhanced definition
+18:03:56,240 (main) INFO  [DataNucleus.Enhancer] - Writing class file "/home/jalal/workspace/AndroidStudio/TellMeWhenProject/TellMeWhen-AppEngine/target/TellMeWhen-AppEngine-1.0/WEB-INF/classes/com/tellmewhen/stocks/AbstractAlert.class" with enhanced definition
+18:03:56,240 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 4 classes. Timings : input=35161 ms, enhance=72 ms, total=35233 ms. Consult the log for full details

@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="/home/jalal/workspace/AndroidStudio/TellMeWhenProject/TellMeWhen/src/main/res" >
+            <file
+                name="ic_launcher"
+                path="/home/jalal/workspace/AndroidStudio/TellMeWhenProject/TellMeWhen/src/main/res/drawable-xxhdpi/ic_launcher.png"
+                qualifiers="xxhdpi"
+                type="drawable" />
+            <file
+                name="content_new"
+                path="/home/jalal/workspace/AndroidStudio/TellMeWhenProject/TellMeWhen/src/main/res/drawable-xhdpi/content_new.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="content_save"
+                path="/home/jalal/workspace/AndroidStudio/TellMeWhenProject/TellMeWhen/src/main/res/drawable-xhdpi/content_save.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="content_discard"
+                path="/home/jalal/workspace/AndroidStudio/TellMeWhenProject/TellMeWhen/src/main/res/drawable-xhdpi/content_discard.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/home/jalal/workspace/AndroidStudio/TellMeWhenProject/TellMeWhen/src/main/res/drawable-xhdpi/ic_launcher.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="navigation_refresh"
+                path="/home/jalal/workspace/AndroidStudio/TellMeWhenProject/TellMeWhen/src/main/res/drawable-xhdpi/navigation_refresh.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="content_edit"
+                path="/home/jalal/workspace/AndroidStudio/TellMeWhenProject/TellMeWhen/src/main/res/drawable-xhdpi/content_edit.png"
+                qualifiers="xhdpi"
+                type="drawable" />
+            <file
+                name="content_new"
+                path="/home/jalal/workspace/AndroidStudio/TellMeWhenProject/TellMeWhen/src/main/res/drawable-hdpi/content_new.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="content_save"
+                path="/home/jalal/workspace/AndroidStudio/TellMeWhenProject/TellMeWhen/src/main/res/drawable-hdpi/content_save.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="content_discard"
+                path="/home/jalal/workspace/AndroidStudio/TellMeWhenProject/TellMeWhen/src/main/res/drawable-hdpi/content_discard.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/home/jalal/workspace/AndroidStudio/TellMeWhenProject/TellMeWhen/src/main/res/drawable-hdpi/ic_launcher.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="navigation_refresh"
+                path="/home/jalal/workspace/AndroidStudio/TellMeWhenProject/TellMeWhen/src/main/res/drawable-hdpi/navigation_refresh.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                name="content_edit"
+                path="/home/jalal/workspace/AndroidStudio/TellMeWhenProject/TellMeWhen/src/main/res/drawable-hdpi/content_edit.png"
+                qualifiers="hdpi"
+                type="drawable" />
+            <file
+                path="/home/jalal/workspace/AndroidStudio/TellMeWhenProject/TellMeWhen/src/main/res/values-sw600dp/dimens.xml"
+                qualifiers="sw600dp" />
+            <file
+                path="/home/jalal/workspace/AndroidStudio/TellMeWhenProject/TellMeWhen/src/main/res/values-sw720dp-land/dimens.xml"
+                qualifiers="sw720dp-land" >
+                <dimen name="activity_horizontal_margin" >128dp
+                </dimen>
+            </file>
+            <file
+                name="content_new"
+                path="/home/jalal/workspace/AndroidStudio/TellMeWhenProject/TellMeWhen/src/main/res/drawable-mdpi/content_new.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="content_save"
+                path="/home/jalal/workspace/AndroidStudio/TellMeWhenProject/TellMeWhen/src/main/res/drawable-mdpi/content_save.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="content_discard"
+                path="/home/jalal/workspace/AndroidStudio/TellMeWhenProject/TellMeWhen/src/main/res/drawable-mdpi/content_discard.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="icon"
+                path="/home/jalal/workspace/AndroidStudio/TellMeWhenProject/TellMeWhen/src/main/res/drawable-mdpi/icon.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/home/jalal/workspace/AndroidStudio/TellMeWhenProject/TellMeWhen/src/main/res/drawable-mdpi/ic_launcher.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="navigation_refresh"
+                path="/home/jalal/workspace/AndroidStudio/TellMeWhenProject/TellMeWhen/src/main/res/drawable-mdpi/navigation_refresh.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="content_edit"
+                path="/home/jalal/workspace/AndroidStudio/TellMeWhenProject/TellMeWhen/src/main/res/drawable-mdpi/content_edit.png"
+                qualifiers="mdpi"
+                type="drawable" />
+            <file
+                name="activity_register"
+                path="/home/jalal/workspace/AndroidStudio/TellMeWhenProject/TellMeWhen/src/main/res/menu/activity_register.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="main"
+                path="/home/jalal/workspace/AndroidStudio/TellMeWhenProject/TellMeWhen/src/main/res/menu/main.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="activity_main"
+                path="/home/jalal/workspace/AndroidStudio/TellMeWhenProject/TellMeWhen/src/main/res/menu/activity_main.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="authenticator"
+                path="/home/jalal/workspace/AndroidStudio/TellMeWhenProject/TellMeWhen/src/main/res/xml/authenticator.xml"
+                qualifiers=""
+                type="xml" />
+            <file
+                name="syncadapter"
+                path="/home/jalal/workspace/AndroidStudio/TellMeWhenProject/TellMeWhen/src/main/res/xml/syncadapter.xml"
+                qualifiers=""
+                type="xml" />
+            <file
+                path="/home/jalal/workspace/AndroidStudio/TellMeWhenProject/TellMeWhen/src/main/res/values-v14/styles.xml"
+                qualifiers="v14" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light.DarkActionBar" >
+
+                    <!-- API 14 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                path="/home/jalal/workspace/AndroidStudio/TellMeWhenProject/TellMeWhen/src/main/res/values-v11/styles.xml"
+                qualifiers="v11" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light" >
+
+                    <!-- API 11 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                name="activity_alertlist"
+                path="/home/jalal/workspace/AndroidStudio/TellMeWhenProject/TellMeWhen/src/main/res/layout/activity_alertlist.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_newalert"
+                path="/home/jalal/workspace/AndroidStudio/TellMeWhenProject/TellMeWhen/src/main/res/layout/fragment_newalert.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="alert_listitem_cursor"
+                path="/home/jalal/workspace/AndroidStudio/TellMeWhenProject/TellMeWhen/src/main/res/layout/alert_listitem_cursor.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_register"
+                path="/home/jalal/workspace/AndroidStudio/TellMeWhenProject/TellMeWhen/src/main/res/layout/activity_register.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="alertlist_item"
+                path="/home/jalal/workspace/AndroidStudio/TellMeWhenProject/TellMeWhen/src/main/res/layout/alertlist_item.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_main"
+                path="/home/jalal/workspace/AndroidStudio/TellMeWhenProject/TellMeWhen/src/main/res/layout/activity_main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="content_new"
+                path="/home/jalal/workspace/AndroidStudio/TellMeWhenProject/TellMeWhen/src/main/res/drawable-ldpi/content_new.png"
+                qualifiers="ldpi"
+                type="drawable" />
+            <file
+                name="content_save"
+                path="/home/jalal/workspace/AndroidStudio/TellMeWhenProject/TellMeWhen/src/main/res/drawable-ldpi/content_save.png"
+                qualifiers="ldpi"
+                type="drawable" />
+            <file
+                name="content_discard"
+                path="/home/jalal/workspace/AndroidStudio/TellMeWhenProject/TellMeWhen/src/main/res/drawable-ldpi/content_discard.png"
+                qualifiers="ldpi"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/home/jalal/workspace/AndroidStudio/TellMeWhenProject/TellMeWhen/src/main/res/drawable-ldpi/ic_launcher.png"
+                qualifiers="ldpi"
+                type="drawable" />
+            <file
+                name="navigation_refresh"
+                path="/home/jalal/workspace/AndroidStudio/TellMeWhenProject/TellMeWhen/src/main/res/drawable-ldpi/navigation_refresh.png"
+                qualifiers="ldpi"
+                type="drawable" />
+            <file
+                name="content_edit"
+                path="/home/jalal/workspace/AndroidStudio/TellMeWhenProject/TellMeWhen/src/main/res/drawable-ldpi/content_edit.png"
+                qualifiers="ldpi"
+                type="drawable" />
+            <file
+                path="/home/jalal/workspace/AndroidStudio/TellMeWhenProject/TellMeWhen/src/main/res/values/strings.xml"
+                qualifiers="" >
+                <string name="action_settings" >Action Settings
+                </string>
+                <string name="stock_price_hint" >Enter Stock Price
+                </string>
+                <string name="stock_symbol_empty_error" >Must Enter Stock Symbol
+                </string>
+                <string name="new_item_save" >Save
+                </string>
+                <string name="menu_new" >New Alert
+                </string>
+                <string name="menu_refresh" >Refresh
+                </string>
+                <string name="stock_price_empty_error" >Must Enter Stock Price
+                </string>
+                <string name="stock_symbol_lookup_error" >Stock Symbol Not Found
+                </string>
+                <string name="new_item_cancel" >Cancel
+                </string>
+                <string name="app_name" >TellMeWhen-Stocks
+                </string>
+                <string name="menu_rate" >Rate App
+                </string>
+                <string name="hello_world" >Hello world! (Main Activity)
+                </string>
+                <string name="menu_settings" >Settings
+                </string>
+                <string name="stock_symbol_hint" >Enter Stock Symbol Eg: GOOG
+                </string>
+            </file>
+            <file
+                path="/home/jalal/workspace/AndroidStudio/TellMeWhenProject/TellMeWhen/src/main/res/values/styles.xml"
+                qualifiers="" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Light" >
+
+                    <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+                    -->
+                </style>
+
+                <style
+                    name="AppTheme"
+                    parent="AppBaseTheme" >
+
+                    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+                </style>
+            </file>
+            <file
+                path="/home/jalal/workspace/AndroidStudio/TellMeWhenProject/TellMeWhen/src/main/res/values/arrays.xml"
+                qualifiers="" >
+                <string-array name="conditional_spinner_entries" >
+                    <item>
+&lt;
+                    </item>
+                    <item>
+=&lt;
+                    </item>
+                    <item>
+=
+                    </item>
+                    <item>
+=>
+                    </item>
+                    <item>
+>
+                    </item>
+                </string-array>
+                <string-array name="alert_list_drop_down" >
+                    <item>
+All
+                    </item>
+                    <item>
+Active
+                    </item>
+                    <item>
+Unactive
+                    </item>
+                    <item>
+Satisfied
+                    </item>
+                    <item>
+Unsatisfied
+                    </item>
+                </string-array>
+            </file>
+            <file
+                path="/home/jalal/workspace/AndroidStudio/TellMeWhenProject/TellMeWhen/src/main/res/values/dimens.xml"
+                qualifiers="" >
+                <dimen name="activity_horizontal_margin" >16dp
+                </dimen>
+                <dimen name="activity_vertical_margin" >16dp
+                </dimen>
+            </file>
+        </source>
+        <source path="/home/jalal/workspace/AndroidStudio/TellMeWhenProject/TellMeWhen/build/res/rs/debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/home/jalal/workspace/AndroidStudio/TellMeWhenProject/TellMeWhen/src/debug/res" />
+    </dataSet>
+
+</merger>

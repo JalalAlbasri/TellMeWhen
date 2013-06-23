@@ -1,0 +1,15 @@
+# incremental data. DO NOT EDIT.
+# format is <lastModified> <length> <SHA-1> <path>
+# Encoding is UTF-8
+1371972169000 707 50111aa66cc3bf1d2cc8b49f8064c472e46259d2 /home/jalal/workspace/AndroidStudio/TellMeWhenProject/TellMeWhen/build/classes/debug/com/tellmewhen/stocks/R.class
+1371972169000 349 807a973257640152272dccea81f00c3b916c4f1b /home/jalal/workspace/AndroidStudio/TellMeWhenProject/TellMeWhen/build/classes/debug/com/tellmewhen/stocks/R$attr.class
+1371972169000 402 75acb27236e0c0e6455f9949368586127a26c88b /home/jalal/workspace/AndroidStudio/TellMeWhenProject/TellMeWhen/build/classes/debug/com/tellmewhen/stocks/R$id.class
+1371972169000 351 059fb8b0eb0cdc9e67012b26342c761cec89182a /home/jalal/workspace/AndroidStudio/TellMeWhenProject/TellMeWhen/build/classes/debug/com/tellmewhen/stocks/BuildConfig.class
+1371972169000 412 db90e7159cb6a3b018861bef1888211a3882e6ee /home/jalal/workspace/AndroidStudio/TellMeWhenProject/TellMeWhen/build/classes/debug/com/tellmewhen/stocks/R$layout.class
+1371972169000 470 6a790bb804468c45f37c12b669aa9247441dfdc0 /home/jalal/workspace/AndroidStudio/TellMeWhenProject/TellMeWhen/build/classes/debug/com/tellmewhen/stocks/R$dimen.class
+1371972134000 484258 bd6479f5dd592790607e0504e66e0f31c2b4d308 /home/jalal/workspace/AndroidStudio/TellMeWhenProject/TellMeWhen/libs/android-support-v4.jar
+1371972169000 481 c5b19706046d009337efabfbf58f16d61cb4f59d /home/jalal/workspace/AndroidStudio/TellMeWhenProject/TellMeWhen/build/classes/debug/com/tellmewhen/stocks/R$string.class
+1371972169000 397 f1f1d1aa938b3266c71f37ddf20730ddcfc6e973 /home/jalal/workspace/AndroidStudio/TellMeWhenProject/TellMeWhen/build/classes/debug/com/tellmewhen/stocks/R$menu.class
+1371972169000 823 e5f0f5d7c49335ca4f9133b40c7d25f501f34041 /home/jalal/workspace/AndroidStudio/TellMeWhenProject/TellMeWhen/build/classes/debug/com/tellmewhen/stocks/MainActivity.class
+1371972169000 416 e55c12663ea35c259122b36e83d1feee4927cc66 /home/jalal/workspace/AndroidStudio/TellMeWhenProject/TellMeWhen/build/classes/debug/com/tellmewhen/stocks/R$drawable.class
+1371972169000 440 539968f87832a62023ca1e2280405b24cad19b85 /home/jalal/workspace/AndroidStudio/TellMeWhenProject/TellMeWhen/build/classes/debug/com/tellmewhen/stocks/R$style.class

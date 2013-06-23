@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_vertical|center_horizontal|center"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/stock_symbol_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/stock_symbol_hint" />
+    <TextView
+        android:id="@+id/stock_symbol_help_text"
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:visibility="gone" />
+    
+    <Spinner
+        android:id="@+id/conditional_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/conditional_spinner_entries" />
+
+    <EditText
+        android:id="@+id/stock_price_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/stock_price_hint"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        android:id="@+id/stock_price_help_text"
+        android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:visibility="gone" />
+    
+    <LinearLayout
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/cancel_button"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/new_item_cancel" />
+
+        <Button
+            android:id="@+id/save_button"
+            style="?android:attr/buttonBarButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/new_item_save" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="alert_list_drop_down">
+        <item>All</item>
+        <item>Active</item>
+        <item>Unactive</item>
+        <item>Satisfied</item>
+        <item>Unsatisfied</item>
+    </string-array>
+	<string-array name="conditional_spinner_entries">
+	    <item>&lt;</item>
+	    <item>=&lt;</item>
+	    <item>=</item>
+	    <item>=&gt;</item>
+	    <item>&gt;</item>        
+	</string-array>
+</resources>

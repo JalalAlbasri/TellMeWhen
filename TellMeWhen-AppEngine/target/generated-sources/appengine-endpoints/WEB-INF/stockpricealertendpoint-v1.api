@@ -1,0 +1,241 @@
+{
+  "extends" : "thirdParty.api",
+  "abstract" : false,
+  "root" : "https://myapp.appspot.com/_ah/api",
+  "name" : "stockpricealertendpoint",
+  "version" : "v1",
+  "defaultVersion" : false,
+  "adapter" : {
+    "bns" : "https://myapp.appspot.com/_ah/spi",
+    "deadline" : 10.0,
+    "type" : "lily"
+  },
+  "auth" : {
+    "allowCookieAuth" : false
+  },
+  "frontendLimits" : {
+    "unregisteredUserQps" : -1,
+    "unregisteredQps" : -1,
+    "unregisteredDaily" : -1,
+    "rules" : [ ]
+  },
+  "cacheControl" : {
+    "type" : "no-cache",
+    "maxAge" : 0
+  },
+  "methods" : {
+    "stockpricealertendpoint.stockPriceAlertEndpoint.getStockPriceAlert" : {
+      "path" : "stockpricealert/{id}",
+      "httpMethod" : "GET",
+      "scopes" : [ ],
+      "audiences" : [ ],
+      "clientIds" : [ ],
+      "rosyMethod" : "com.tellmewhen.stocks.StockPriceAlertEndpoint.getStockPriceAlert",
+      "request" : {
+        "parameters" : {
+          "id" : {
+            "type" : "int64",
+            "required" : true
+          }
+        },
+        "body" : "empty"
+      },
+      "response" : {
+        "body" : "autoTemplate(backendResponse)"
+      }
+    },
+    "stockpricealertendpoint.stockPriceAlertEndpoint.removeStockPriceAlert" : {
+      "path" : "stockpricealert/{id}",
+      "httpMethod" : "DELETE",
+      "scopes" : [ ],
+      "audiences" : [ ],
+      "clientIds" : [ ],
+      "rosyMethod" : "com.tellmewhen.stocks.StockPriceAlertEndpoint.removeStockPriceAlert",
+      "request" : {
+        "parameters" : {
+          "id" : {
+            "type" : "int64",
+            "required" : true
+          }
+        },
+        "body" : "empty"
+      },
+      "response" : {
+        "body" : "autoTemplate(backendResponse)"
+      }
+    },
+    "stockpricealertendpoint.stockPriceAlertEndpoint.insertStockPriceAlert" : {
+      "path" : "stockpricealert",
+      "httpMethod" : "POST",
+      "scopes" : [ ],
+      "audiences" : [ ],
+      "clientIds" : [ ],
+      "rosyMethod" : "com.tellmewhen.stocks.StockPriceAlertEndpoint.insertStockPriceAlert",
+      "request" : {
+        "body" : "autoTemplate(backendRequest)",
+        "bodyName" : "resource"
+      },
+      "response" : {
+        "body" : "autoTemplate(backendResponse)"
+      }
+    },
+    "stockpricealertendpoint.stockPriceAlertEndpoint.listStockPriceAlertbyDeviceInfoId" : {
+      "path" : "stockpricealert/device/{id}",
+      "httpMethod" : "GET",
+      "scopes" : [ ],
+      "audiences" : [ ],
+      "clientIds" : [ ],
+      "rosyMethod" : "com.tellmewhen.stocks.StockPriceAlertEndpoint.listStockPriceAlertbyDeviceInfoId",
+      "request" : {
+        "parameters" : {
+          "deviceInfoId" : {
+            "type" : "string",
+            "required" : true
+          },
+          "cursor" : {
+            "type" : "string",
+            "required" : false
+          },
+          "limit" : {
+            "type" : "int32",
+            "required" : false
+          }
+        },
+        "body" : "empty"
+      },
+      "response" : {
+        "body" : "autoTemplate(backendResponse)"
+      }
+    },
+    "stockpricealertendpoint.stockPriceAlertEndpoint.updateStockPriceAlert" : {
+      "path" : "stockpricealert",
+      "httpMethod" : "PUT",
+      "scopes" : [ ],
+      "audiences" : [ ],
+      "clientIds" : [ ],
+      "rosyMethod" : "com.tellmewhen.stocks.StockPriceAlertEndpoint.updateStockPriceAlert",
+      "request" : {
+        "body" : "autoTemplate(backendRequest)",
+        "bodyName" : "resource"
+      },
+      "response" : {
+        "body" : "autoTemplate(backendResponse)"
+      }
+    }
+  },
+  "descriptor" : {
+    "schemas" : {
+      "StockPriceAlert" : {
+        "id" : "StockPriceAlert",
+        "type" : "object",
+        "properties" : {
+          "alertId" : {
+            "$ref" : "Key"
+          },
+          "deviceInfoId" : {
+            "type" : "string"
+          },
+          "createdTimestamp" : {
+            "type" : "string",
+            "format" : "int64"
+          },
+          "checkedTimestamp" : {
+            "type" : "string",
+            "format" : "int64"
+          },
+          "active" : {
+            "type" : "boolean"
+          },
+          "satisfied" : {
+            "type" : "boolean"
+          },
+          "stockSymbol" : {
+            "type" : "string"
+          },
+          "stockPrice" : {
+            "type" : "number"
+          },
+          "conditional" : {
+            "type" : "string"
+          }
+        }
+      },
+      "Key" : {
+        "id" : "Key",
+        "type" : "object",
+        "properties" : {
+          "kind" : {
+            "type" : "string"
+          },
+          "appId" : {
+            "type" : "string"
+          },
+          "id" : {
+            "type" : "string",
+            "format" : "int64"
+          },
+          "name" : {
+            "type" : "string"
+          },
+          "parent" : {
+            "$ref" : "Key"
+          },
+          "namespace" : {
+            "type" : "string"
+          },
+          "complete" : {
+            "type" : "boolean"
+          }
+        }
+      },
+      "CollectionResponse_StockPriceAlert" : {
+        "id" : "CollectionResponse_StockPriceAlert",
+        "type" : "object",
+        "properties" : {
+          "items" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "StockPriceAlert"
+            }
+          },
+          "nextPageToken" : {
+            "type" : "string"
+          }
+        }
+      }
+    },
+    "methods" : {
+      "com.tellmewhen.stocks.StockPriceAlertEndpoint.getStockPriceAlert" : {
+        "response" : {
+          "$ref" : "StockPriceAlert"
+        }
+      },
+      "com.tellmewhen.stocks.StockPriceAlertEndpoint.removeStockPriceAlert" : {
+        "response" : {
+          "$ref" : "StockPriceAlert"
+        }
+      },
+      "com.tellmewhen.stocks.StockPriceAlertEndpoint.insertStockPriceAlert" : {
+        "request" : {
+          "$ref" : "StockPriceAlert"
+        },
+        "response" : {
+          "$ref" : "StockPriceAlert"
+        }
+      },
+      "com.tellmewhen.stocks.StockPriceAlertEndpoint.listStockPriceAlertbyDeviceInfoId" : {
+        "response" : {
+          "$ref" : "CollectionResponse_StockPriceAlert"
+        }
+      },
+      "com.tellmewhen.stocks.StockPriceAlertEndpoint.updateStockPriceAlert" : {
+        "request" : {
+          "$ref" : "StockPriceAlert"
+        },
+        "response" : {
+          "$ref" : "StockPriceAlert"
+        }
+      }
+    }
+  }
+}
